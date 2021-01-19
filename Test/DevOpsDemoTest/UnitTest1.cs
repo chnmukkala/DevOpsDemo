@@ -22,7 +22,7 @@ namespace DevOpsDemoTest
             var wfc = new WeatherForecastController();
             var wS = wfc.Get();
 
-            Assert.Equal(2, wS.Count());
+            Assert.Equal(5, wS.Count());
         }
     }
 }
